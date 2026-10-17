@@ -1,0 +1,6 @@
+Gauge is an engineering eval, not an agent. It asks a model for one JSON answer on each of eight applied calculations that working engineers get wrong in a specific way: integer money, unit conversion, current division, worst-case fit, shortest path, stopping distance, FFT bin centre, and three-phase power.
+
+A deterministic grader scores the JSON. No second model is in the loop. Reference answers pass 8/8. The documented shortcut on each task fails. Frontier models fail here when they sound fluent and still return a number that would be unsafe or unpaid: a kobo off, millimetres treated as metres, the single-phase power formula, or a path that looks cheap and is not shortest.
+
+Run: node grade.mjs
+Score a model: node grade.mjs --answers answers.json

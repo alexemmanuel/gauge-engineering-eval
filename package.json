@@ -1,0 +1,8 @@
+{
+  "name": "gauge-engineering-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "grade": "node grade.mjs"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kobo-ledger": {
+    "totalKobo": 1000
+  },
+  "beam-deflection": {
+    "deflectionMm": 11.025
+  },
+  "branch-current": {
+    "currentMa": 21.818
+  },
+  "fit-clearance": {
+    "minClearanceUm": 40,
+    "maxClearanceUm": 90
+  },
+  "shortest-path": {
+    "distance": 6
+  },
+  "stopping-distance": {
+    "distanceM": 69.305
+  },
+  "spectrum-bin": {
+    "bin": 10,
+    "centerHz": 430.664
+  },
+  "three-phase-power": {
+    "powerW": 11023
+  }
+}
